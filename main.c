@@ -25,6 +25,16 @@ double sabiranje(double a, double b)
 {
 	return (a+b);
 	}
+long factorial(int n)
+{
+  int c;
+  long r = 1;
+
+  for (c = 1; c <= n; c++)
+    r = r * c;
+
+  return r;
+}
 int main()
 {
 
