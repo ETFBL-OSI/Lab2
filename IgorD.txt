@@ -1,2 +1,3 @@
 test
 random line
+nije isto kao kod drugih
