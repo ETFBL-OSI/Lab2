@@ -11,7 +11,7 @@ int main()
     printf("\n\n");
 
     printf("Unesite brojeve:\n");
-    int rez=0;
+    int rez=1;
 
     for(int i = 0; i<n; i++)
     {
