@@ -17,7 +17,7 @@ int main()
     {
         int a;
         scanf("%d", &a);
-        rez+= a;
+        rez*= a;
     }
 
     printf("\n\nZbir n unesenih brojeva je: %d\n\n\n", rez);
