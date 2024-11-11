@@ -1,12 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+<<<<<<< HEAD
+int mnozenje_dva_broja(int a, int b)
+{
+    return a*b;
+}
+=======
 int sabiranjeNBr(int n);
 int dvaBroja (int a, int b);
 
+>>>>>>> 939a6ea1d6dd59901f068f226a2fb77515d90b08
 int oduzimanje2broja(int umanjenik,int umanjilac)
 {
     return umanjenik-umanjilac;
+
 }
 
 int main()
