@@ -3,12 +3,15 @@
 
 int sabiranjeNBr(int n);
 
+int oduzimanje2broja(int umanjenik,int umanjilac)
+{
+    return umanjenik-umanjilac;
+}
+
 int main()
 {
-    printf("Hello world!\n");
-	
+    printf("5-3=%d\n",oduzimanje2broja(5,3));
 	int suma = sabiranjeNBr(5);
-	
     return 0;
 }
 
