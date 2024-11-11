@@ -25,6 +25,7 @@ int mnozenje_dva_broja(int a, int b)
 }
 
 int sabiranjeNBr(int n);
+int dvaBroja (int a, int b);
 
 
 int oduzimanje2broja(int umanjenik,int umanjilac)
@@ -35,12 +36,22 @@ int oduzimanje2broja(int umanjenik,int umanjilac)
 
 int main()
 {
+
     printf("5-3=%d\n",oduzimanje2broja(5,3));
 	oduzimanje_n_brojeva();
 	int suma = sabiranjeNBr(5);
 	int proizvod = mnozenje_dva_broja(4,3);
-	printf("\n4*3=%d", proizvod);
+	printf("\n4*3=%d\n", proizvod);
+    int a, b;
+    printf("unesi dva broja: ");
+    scanf("%d %d", &a, &b);
+    printf("rezultat je %d\n", dvaBroja(a, b));
     return 0;
+}
+
+int dvaBroja (int a, int b)
+{
+    return a + b;
 }
 
 int sabiranjeNBr(int n)
