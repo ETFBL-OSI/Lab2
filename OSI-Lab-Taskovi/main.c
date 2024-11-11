@@ -19,8 +19,14 @@ void oduzimanje_n_brojeva()
 	printf("Razlika brojeva je: %d\n",razlika);
 }
 
+int oduzimanje2broja(int umanjenik,int umanjilac)
+{
+    return umanjenik-umanjilac;
+}
+
 int main()
 {
+    printf("5-3=%d\n",oduzimanje2broja(5,3));
 	oduzimanje_n_brojeva();
 	return 0;
 }
