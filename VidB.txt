@@ -1,2 +1,6 @@
 promjenaaaaaa
+<<<<<<< HEAD
 5
+=======
+PROTA
+>>>>>>> eaef8ee42100f99e46102aa12d4273b9b97031a6
